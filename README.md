@@ -5,11 +5,15 @@ que se requiere y en los límites que coloca el programador.
 
 documentacion:
 -------------------------------------------------------------
-Checker (super class) proporciona miembros comunes entre los checkers de diferente tipo, así como un metodo abstracto
+Checker (super class)
+------------------------
+proporciona miembros comunes entre los checkers de diferente tipo, así como un metodo abstracto
 y otro heredado.
 abstract methods: protected boolean check()
--------------------------------------------------------------
-iChecker, Clase que necesita ser instanciada para ser usada, el único método público(aparte del constructor) que tiene 
+
+iChecker
+---------
+Clase que necesita ser instanciada para ser usada, el único método público(aparte del constructor) que tiene 
 es el get() el cual esta overloaded de las siguientes 4 formas:
 
 int get(int l1, int l2, String prompt, String missD) 
