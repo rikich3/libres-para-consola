@@ -43,6 +43,10 @@ int get(String[] lista, String prompt)
 "Pide al usuario por el prompt que ingrese un string, si el input es IGUAL a un elemento de la lista, entonces
 devolverá el indice de aquel elemento en el arreglo (los indices empiezan en 0)"
 
+El constructor xChecker(String warning)
+-----------------
+al crear el objeto en memoria, el constructor debe recibir como argumento un string, este aparece en caso de que el usuario no
+coloque un argumento valido para el tipo de variable que se necesita
 
 
 
